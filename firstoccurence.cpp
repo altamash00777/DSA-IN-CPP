@@ -11,7 +11,7 @@ int main(){
     int arr[]={1,3,5,3,9};
     int size=sizeof(arr)/sizeof(arr[0]);
 
-    int key=4;
+    int key=3;
 
     for(int i=0;i<size;i++){
         if(arr[i]==key){
