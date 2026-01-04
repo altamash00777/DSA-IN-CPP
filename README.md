@@ -1,6 +1,3 @@
-What this repository contains
- Linear Search problems
- Array basic questions
- Searching & traversal logic
- Beginner-friendly C++ solutions
- Well-structured and easy-to-read code
+DSA in C++
+
+This repository contains my Data Structures and Algorithms (DSA) practice using C++.
