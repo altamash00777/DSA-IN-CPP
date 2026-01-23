@@ -1,0 +1,170 @@
+4. Associative Containers
+
+Store elements in sorted order.
+
+Container	Description
+set	Unique sorted elements
+multiset	Duplicate allowed
+map	Key-value (unique keys)
+multimap	Duplicate keys allowed
+4.1 Set
+
+Stores unique values
+
+Sorted automatically
+
+Functions:
+
+insert()
+
+erase()
+
+find()
+
+count()
+
+4.2 Map
+
+Stores key-value pairs
+
+Keys are unique
+
+Functions:
+
+insert()
+
+erase()
+
+find()
+
+operator[]
+
+5. Unordered Containers
+
+Uses hashing
+
+Faster than ordered containers
+
+Container	Description
+unordered_set	Unordered unique values
+unordered_map	Unordered key-value
+6. Container Adapters
+Adapter	Description
+stack	LIFO
+queue	FIFO
+priority_queue	Max/Min heap
+6.1 Stack
+
+Functions:
+
+push()
+
+pop()
+
+top()
+
+empty()
+
+6.2 Queue
+
+Functions:
+
+push()
+
+pop()
+
+front()
+
+back()
+
+6.3 Priority Queue
+
+By default max heap
+
+For min heap use comparator
+
+7. Iterators
+
+Iterators are like pointers used to traverse containers.
+
+Types:
+
+Input Iterator
+
+Output Iterator
+
+Forward Iterator
+
+Bidirectional Iterator
+
+Random Access Iterator
+
+Common:
+
+begin()
+
+end()
+
+8. Algorithms
+
+STL provides predefined algorithms.
+
+Common Algorithms
+
+sort()
+
+reverse()
+
+max_element()
+
+min_element()
+
+count()
+
+find()
+
+binary_search()
+
+lower_bound()
+
+upper_bound()
+
+Algorithms work with iterators
+
+9. lower_bound & upper_bound
+
+lower_bound(x) → first element >= x
+
+upper_bound(x) → first element > x
+
+Used in sorted containers
+
+10. Functors (Function Objects)
+
+Objects that behave like functions
+
+Used in sorting & priority queue
+
+Example:
+
+greater<int>()
+
+less<int>()
+
+12. Advantages of STL
+
+Code reusability
+
+Faster development
+
+Optimized performance
+
+Industry standard
+
+13. Disadvantages of STL
+
+Complex error messages
+
+Hard for beginners
+
+Less control over implementation
