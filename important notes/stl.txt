@@ -1,0 +1,134 @@
+Complete Notes on C++ Standard Template Library (STL)
+
+These notes are written in easy-to-learn, self-written style, useful for college exams, DSA, and interviews.
+
+1. What is STL?
+
+STL (Standard Template Library) is a set of C++ template classes and functions that provide ready-made data structures and algorithms.
+
+Why STL is used?
+
+Saves time (no need to write code from scratch)
+
+Optimized & fast
+
+Reduces code length
+
+Widely used in DSA & Competitive Programming
+
+2. Components of STL
+
+STL has 4 main components:
+
+Containers
+
+Algorithms
+
+Iterators
+
+Functors (Function Objects)
+
+3. Containers
+
+Containers are data structures used to store data.
+
+3.1 Types of Containers
+(A) Sequence Containers
+
+Store data in linear order.
+
+Container	Description
+vector	Dynamic array
+list	Doubly linked list
+deque	Double-ended queue
+array	Fixed-size array
+forward_list	Singly linked list
+3.2 Vector
+
+Dynamic array
+
+Fast random access
+
+Stored in contiguous memory
+
+Common Functions
+
+push_back()
+
+pop_back()
+
+size()
+
+capacity()
+
+at()
+
+front(), back()
+
+clear()
+
+Size vs Capacity
+
+Size → number of elements
+
+Capacity → allocated memory
+
+Capacity grows automatically (usually doubles)
+
+3.3 List
+
+Doubly linked list
+
+Slow random access
+
+Fast insertion/deletion
+
+Functions:
+
+push_front()
+
+push_back()
+
+pop_front()
+
+pop_back()
+
+remove()
+
+sort()
+
+3.4 Deque
+
+Insertion/deletion from both ends
+
+Faster than vector at front
+
+Functions:
+
+push_front()
+
+push_back()
+
+pop_front()
+
+pop_back()
+
+3.5 Array
+
+Fixed size
+
+Faster than vector
+
+Functions:
+
+size()
+
+at()
+
+fill()
+
+3.6 Forward List
+
+Singly linked list
+
+Less memory than list
